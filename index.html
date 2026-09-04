@@ -62,7 +62,7 @@
 
                         <div class="d-flex flex-wrap gap-2 mb-4">
                             <a href="#contact" class="btn btn-dark btn-lg text-white fw-bold shadow-sm">
-                                <i class="bi bi-envelope-fill me-2"></i>Get In Touch
+                                <i class="bi bi-envelope-fill me-2"></i>Collaborate
                             </a>
                             <button type="button" class="btn btn-light border border-dark btn-lg text-dark" data-bs-toggle="modal" data-bs-target="#quickInfoModal">
                                 <i class="bi bi-eye me-2"></i>Quick Overview
@@ -71,11 +71,26 @@
                     </div>
 
                     <div class="col-lg-5 text-center">
-                        <div class="position-relative d-inline-block">
-                            <img src="images/profile.jpg" class="home-img img-fluid rounded-4 shadow-lg border border-dark bw-img" alt="Laurence Profile">
-                            <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3 bg-white border border-dark text-dark px-3 py-1 rounded-pill small fw-bold">
-                                <i class="bi bi-terminal me-1"></i>BSIT | Java &amp; Linux
+                        <div id="carouselCrossfade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/linux.gif" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/terminal.gif" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/profile.jpg" class="d-block w-100">
+                                </div>
                             </div>
+                            <a class="carousel-control-prev" href="#carouselCrossfade" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselCrossfade" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -94,9 +109,9 @@
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-5">
                         <div class="card bg-white text-dark border border-dark shadow-sm hover-lift">
-                            <img src="images/formal-picture.jpg" class="card-img-top bw-img" alt="Laurence Profile Card">
+                            <img src="images/formal-picture.jpg" class="about-img card-img-top bw-img" alt="Laurence Profile Card">
                             <div class="card-body text-center p-4">
-                                <h4 class="card-title fw-bold">Cosmo Laurence Mutia</h4>
+                                <h4 class="card-title fw-bold">Laurence Mutia</h4>
                                 <p class="card-text text-secondary mb-3">2nd Year BSIT Student</p>
                                 <div class="d-flex justify-content-center gap-2 flex-wrap">
                                     <span class="badge bg-dark text-white">Java Backend</span>
